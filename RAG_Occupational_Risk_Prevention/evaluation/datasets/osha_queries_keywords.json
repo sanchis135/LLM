@@ -1,0 +1,52 @@
+{
+  "queries": [
+    {
+      "query": "What is the purpose of the OSH Act?",
+      "keywords_any_regex": [
+        "findings\\s+and\\s+purpose",
+        "\\bpurpose(s)?\\b",
+        "to assure\\s+so far as possible\\s+every working man and woman",
+        "OSH\\s*Act\\b"
+      ]
+    },
+    {
+      "query": "Who is responsible for ensuring worker safety under the OSH Act?",
+      "keywords_any": ["employer", "duties", "duty", "responsible", "shall furnish"]
+    },
+    {
+      "query": "What rights do workers have under the OSH Act?",
+      "keywords_any": [
+        "right to request",
+        "right to",
+        "access to records",
+        "medical records",
+        "training",
+        "free from retaliation",
+        "file a complaint"
+      ]
+    },
+    {
+      "query": "What are the employer's recordkeeping obligations?",
+      "keywords_any": ["recordkeeping", "records", "logs", "300 log", "reporting"]
+    },
+    {
+      "query": "What are OSHA whistleblower protections?",
+      "keywords_any_regex": [
+        "whistleblower",
+        "retaliation",
+        "section\\s*11\\s*\\(c\\)",
+        "11\\(c\\)\\b",
+        "discriminate against any employee",
+        "discharge or in any manner discriminate"
+      ]
+    },
+    {
+      "query": "What training requirements does OSHA mandate?",
+      "keywords_any": ["training", "instruction", "education", "competent", "training program"]
+    },
+    {
+      "query": "How does OSHA handle inspections and citations?",
+      "keywords_any": ["inspection", "inspections", "citation", "citations", "abatement", "penalty", "notice"]
+    }
+  ]
+}

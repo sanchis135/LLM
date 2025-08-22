@@ -1,0 +1,31 @@
+
+# Core
+python-dotenv
+pydantic>=2
+typer
+rich
+tqdm
+numpy
+pandas
+scikit-learn
+# Retrieval
+rank-bm25
+sentence-transformers
+chromadb
+# App
+streamlit
+fastapi
+uvicorn[standard]
+requests
+# Eval/plots
+matplotlib
+seaborn
+# Parsing
+pypdf
+PyPDF2
+pdf2image
+pytesseract
+pillow
+lxml
+beautifulsoup4
+unstructured

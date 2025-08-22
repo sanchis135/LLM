@@ -1,0 +1,7 @@
+{"query": "What is the purpose of the OSH Act?", "gold_sources": ["OSHA2001.pdf#chunk0", "OSHA2001.pdf#chunk1", "OSHA2001.pdf#chunk2", "OSHA2001.pdf#chunk3", "OSHA2001.pdf#chunk4"]}
+{"query": "Who is responsible for ensuring worker safety under the OSH Act?", "gold_sources": ["OSHA2001.pdf#chunk1", "OSHA2001.pdf#chunk2", "OSHA2001.pdf#chunk4", "OSHA2001.pdf#chunk5", "OSHA2001.pdf#chunk6"]}
+{"query": "What rights do workers have under the OSH Act?", "gold_sources": ["OSHA2001.pdf#chunk0", "OSHA2001.pdf#chunk2", "OSHA2001.pdf#chunk17", "OSHA2001.pdf#chunk40", "OSHA2001.pdf#chunk44"]}
+{"query": "What are the employer's recordkeeping obligations?", "gold_sources": ["OSHA2001.pdf#chunk3", "OSHA2001.pdf#chunk4", "OSHA2001.pdf#chunk28", "OSHA2001.pdf#chunk29", "OSHA2001.pdf#chunk30"]}
+{"query": "What are OSHA whistleblower protections?", "gold_sources": ["OSHA2001.pdf#chunk44"]}
+{"query": "What training requirements does OSHA mandate?", "gold_sources": ["OSHA2001.pdf#chunk0", "OSHA2001.pdf#chunk2", "OSHA2001.pdf#chunk40", "OSHA2001.pdf#chunk45", "OSHA2001.pdf#chunk50"]}
+{"query": "How does OSHA handle inspections and citations?", "gold_sources": ["OSHA2001.pdf#chunk3", "OSHA2001.pdf#chunk12", "OSHA2001.pdf#chunk13", "OSHA2001.pdf#chunk15", "OSHA2001.pdf#chunk17"]}

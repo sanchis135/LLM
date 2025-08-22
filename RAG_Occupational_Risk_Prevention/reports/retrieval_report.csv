@@ -1,0 +1,15 @@
+query,k,recall_bm25,recall_vec,recall_hyb
+What is the purpose of the OSH Act?,5,0.0,0.2,0.2
+What is the purpose of the OSH Act?,10,0.0,0.4,0.2
+Who is responsible for ensuring worker safety under the OSH Act?,5,0.0,0.0,0.0
+Who is responsible for ensuring worker safety under the OSH Act?,10,0.0,0.2,0.0
+What rights do workers have under the OSH Act?,5,0.2,0.2,0.2
+What rights do workers have under the OSH Act?,10,0.2,0.4,0.4
+What are the employer's recordkeeping obligations?,5,0.4,0.4,0.4
+What are the employer's recordkeeping obligations?,10,0.4,0.4,0.6
+What are OSHA whistleblower protections?,5,0.0,0.0,0.0
+What are OSHA whistleblower protections?,10,0.0,0.0,0.0
+What training requirements does OSHA mandate?,5,0.0,0.2,0.0
+What training requirements does OSHA mandate?,10,0.2,0.4,0.2
+How does OSHA handle inspections and citations?,5,0.0,0.0,0.0
+How does OSHA handle inspections and citations?,10,0.2,0.2,0.0
