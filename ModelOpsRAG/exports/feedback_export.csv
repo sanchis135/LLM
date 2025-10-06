@@ -1,0 +1,6 @@
+id,ts,event,useful,note,query
+1,1759756660.4457014,eval_feedback,Yes,,canary rollout on OpenShift
+2,1759756717.1305873,eval_feedback,Yes,,blue-green deployment on Kubernetes vs OpenShift routes
+3,1759756816.1967597,eval_feedback,No,,Jenkins pipeline stages for model promotion
+4,1759756870.367733,eval_feedback,No,,GitLab CI template for model deployment
+5,1759756960.5929997,eval_feedback,Yes,,kubectl commands to debug probe failures

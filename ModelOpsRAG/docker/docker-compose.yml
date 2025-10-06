@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  app:
+    build: ..
+    command: streamlit run app/main.py --server.port=8501 --server.address=0.0.0.0
+    ports: ["8501:8501"]
+    env_file: ../.env
+    volumes:
+      - ..:/work
+    working_dir: /work
+    environment:
+      - OLLAMA_HOST=${OLLAMA_HOST}
+      - OLLAMA_CHAT_MODEL=${OLLAMA_CHAT_MODEL}
+      - OLLAMA_EMBED_MODEL=${OLLAMA_EMBED_MODEL}
+      - EMB_BACKEND=${EMB_BACKEND}
+      - EMB_MODEL=${EMB_MODEL}
+      - CHROMA_DIR=${CHROMA_DIR}
+    # Si Ollama corre en el host y la app en Docker (Linux), descomenta:
+    # extra_hosts:
+    #   - "host.docker.internal:host-gateway"
+
+  chroma:
+    image: chromadb/chroma:latest
+    environment:
+      - IS_PERSISTENT=TRUE
+    volumes:
+      - ../.chroma:/chroma
+    ports: ["8000:8000"]

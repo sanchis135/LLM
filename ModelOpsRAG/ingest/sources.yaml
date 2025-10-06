@@ -1,0 +1,13 @@
+docs:
+  - id: mlops-playbook
+    type: local_markdown
+    path: data/raw/docs/mlops_playbook.md
+    url: https://example.org/mlops_playbook # informational only
+  - id: kubernetes-ops-cheatsheet
+    type: local_markdown
+    path: data/raw/docs/kubernetes_ops_cheatsheet.md
+    url: https://example.org/kubernetes_ops_cheatsheet
+  # Add public docs (URLs) with open licenses if desired:
+  # - id: kubernetes-docs
+  #   type: url_pdf
+  #   url: https://kubernetes.io/.../some-open-pdf.pdf
